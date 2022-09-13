@@ -85,8 +85,7 @@
 <header>
     <div class="center">
         <img src="./Logo.png"></img>
-    </div>
-    
+    </div>    
 </header>
 <body>
     <div class="box">
@@ -113,22 +112,22 @@
                 </div>
                 <p>Clique no serviço desejado:</p>
                 <div>
-                <input type = "checkbox" name="Serviços" id="Auxílio Brasil" value="Auxílio Brasil">
+                <input type = "radio" name="Serviço" id="Auxílio Brasil" value="Auxílio Brasil">
                 <label for = "Auxílio Brasil">Auxílio Brasil</label>
                 </div>
                 <br>
                 <div>
-                    <input type = "checkbox" name="Crédito Consignado" id="Crédito Consignado" value="Crédito Consignado">
+                    <input type = "radio" name="Serviço" id="Crédito Consignado" value="Crédito Consignado">
                     <label for = "Crédito Consignado">Crédito Consignado</label>
                 </div>
                 <br>
                 <div>
-                    <input type = "checkbox" name="Crédito Empresarial" id="Crédito Empresarial" value="Crédito Empresarial">
+                    <input type = "radio" name="Serviço" id="Crédito Empresarial" value="Crédito Empresarial">
                     <label for = "Crédito Empresarial">Crédito Empresarial</label>
                 </div>
                 <br>
                 <div>
-                    <input type = "checkbox" name="Saque FGTS" id="Saque FGTS" value="Saque FGTS">
+                    <input type = "radio" name="Serviço" id="Saque FGTS" value="Saque FGTS">
                     <label for = "Saque FGTS">Saque FGTS</label>
                 </div>
                 <br>
@@ -136,7 +135,10 @@
                     <button type="submit">Enviar</button>
                 </div>
                     <input type="hidden" name="_subject" value="Novo Contato!">
+                    <input type="hidden" name="_template" value="table">
                     <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="Agradecimento.html">
+
             </fieldset>
         </form>
     </div>
